@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WaVe C0ff33D</title>
+    <title>C0ff33 WaVe</title>
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
@@ -14,8 +14,8 @@
 <body>
     <?php include('navbar.php'); ?>
 
-    <section class="hero is-info is-small">
-        <div class="hero-body">
+    <section class=" is-info is-small">
+        <div class="body">
             <div class="container has-text-centered">
                 <p class="title">
                     BIENVENUE !!
@@ -40,8 +40,7 @@
                             <input class="input" type="date" placeholder="Date de reservation">
                         </div>
                         <div class="column has-text-centered">
-                            <a class="button is-danger">
-                                <i class="fas fa-user-plus"></i>
+                            <a class="button is-link">
                                 Reserver
                             </a>
             </form>
